@@ -21,8 +21,8 @@ li {
 }
 input {
     position: relative;
-    width: 200px;
-    bottom: 25px;
+    width: 400px;
+    bottom: 70px;
     right: 50%;
 }
 .f1 > input {
@@ -74,6 +74,7 @@ button {
     position: absolute;
     top: 60px;
     right: 45%;
+    width: 100px;
     
 }
 
@@ -94,8 +95,8 @@ svg#two {
 }
 svg#three {
 	position: absolute;
-    top: -135px;
-    left: 20px;
+    top: -25px;
+    left: 10px;
 	-webkit-transform: translate(600%, 250%);
 	transform: translate(600%, 250%);
 }
