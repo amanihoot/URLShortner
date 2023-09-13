@@ -11,9 +11,10 @@ li {
     margin: 10px 20px;
 }
 input {
+    position: absolute;
     width: 200px;
     top: -10px;
-    left: 40px;
+    left: 15px;
 }
 .f1 > input {
     position: relative;
@@ -39,7 +40,7 @@ input {
 
 body{
     height: 100px;
-    position: absolute;
+    position: relative;
     width: 50%;
     margin-left: 25%;
     margin-top: 20%;
@@ -57,9 +58,9 @@ a {
 button {
     background-color: #D5C6E0;
     color: #192A51;
-    position: relative;
-    top: 20px;
-    right: 30%;
+    position: absolute;
+    top: 60px;
+    right: 40%;
     
 }
 
