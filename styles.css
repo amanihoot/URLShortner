@@ -96,7 +96,7 @@ svg#two {
 svg#three {
 	position: absolute;
     top: -25px;
-    left: 10px;
+    left: 1px;
 	-webkit-transform: translate(600%, 250%);
 	transform: translate(600%, 250%);
 }
