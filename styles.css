@@ -1,20 +1,33 @@
 html {
-    background-color: #F5E6E8;
+    background: rgb(245,230,232);
+    background: radial-gradient(circle, rgba(245,230,232,1) 51%, rgba(150,122,161,1) 91%, rgba(25,42,81,1) 100%);
 }
-
+#head {
+    position: absolute;
+    top: -150%;
+    left: 25%;
+}
+h3 {
+    font-size: 40px;
+}
 .f1 {
+    height: auto;
+    width: auto;
     border: 40px solid #192A51;
     border-radius: 50%;
     background-color: #192A51;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 li {
     margin: 10px 20px;
 }
 input {
-    position: absolute;
+    position: static;
     width: 200px;
     top: -10px;
-    left: 15px;
+    right: 50%;
 }
 .f1 > input {
     position: relative;
@@ -47,6 +60,7 @@ body{
     color: #192A51;
     border:  5px solid #967AA1;
     border-radius: 50%;
+    
 }
 
 a {
@@ -60,7 +74,7 @@ button {
     color: #192A51;
     position: absolute;
     top: 60px;
-    right: 40%;
+    right: 45%;
     
 }
 
