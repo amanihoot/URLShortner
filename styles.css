@@ -81,16 +81,20 @@ button {
 
 svg#one {
 	position: absolute;
+    top: -500px;
+    left: -100px;
 	-webkit-transform: translate(50%, 141%);
 	transform: translate(50%, 141%);
 }
 svg#two {
 	position: absolute;
-	-webkit-transform: translate(570%, 1210%);
-	transform: translate(570%, 1210%);
+	-webkit-transform: translate(50%, 121%);
+	transform: translate(57%, 121%);
 }
 svg#three {
 	position: absolute;
+    top: -135px;
+    left: 20px;
 	-webkit-transform: translate(600%, 250%);
 	transform: translate(600%, 250%);
 }
