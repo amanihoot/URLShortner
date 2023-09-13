@@ -88,6 +88,8 @@ svg#one {
 }
 svg#two {
 	position: absolute;
+    top: 52px;
+    left: 90px;
 	-webkit-transform: translate(50%, 121%);
 	transform: translate(57%, 121%);
 }
