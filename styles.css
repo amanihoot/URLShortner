@@ -7,6 +7,9 @@ html {
     border-radius: 50%;
     background-color: #192A51;
 }
+li {
+    margin: 10px 20px;
+}
 
 .f1 > input {
     position: relative;
@@ -15,6 +18,8 @@ html {
 }
 
 .title {
+    position: relative;
+    top: 30px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -22,6 +27,9 @@ html {
 }
 
 .count {
+    position: relative;
+    top: 10px;
+    text-align: center;
     color: #192A51;
 }
 
@@ -33,6 +41,12 @@ body{
     color: #192A51;
     border:  5px solid #967AA1;
     border-radius: 50%;
+}
+
+a {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
 }
 
 button {
