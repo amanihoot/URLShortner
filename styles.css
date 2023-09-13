@@ -10,7 +10,11 @@ html {
 li {
     margin: 10px 20px;
 }
-
+input {
+    width: 200px;
+    top: -10px;
+    left: 40px;
+}
 .f1 > input {
     position: relative;
     color: #192A51;
@@ -36,8 +40,9 @@ li {
 body{
     height: 100px;
     position: absolute;
-    top: 30%;
-    left: 40%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
     color: #192A51;
     border:  5px solid #967AA1;
     border-radius: 50%;
@@ -52,6 +57,10 @@ a {
 button {
     background-color: #D5C6E0;
     color: #192A51;
+    position: relative;
+    top: 20px;
+    right: 30%;
+    
 }
 
 
